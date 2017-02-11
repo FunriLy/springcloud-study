@@ -34,7 +34,7 @@ Eureka 集群服务具有极大的"弹性"(_Resilience_)。这个是我认为它
 Eureka 只是找到有关客户端与之通信的服务器的信息，但不对通信的协议或方法施加任何限制。通常情况下，我们可以使用 Eureka 获取目标服务器地址，并使用thrift，http(s)或任何其他RPC机制等协议来进行交互通信。
 
 #### Eureka 架构
-![](https://www.tuchuang001.com/images/2017/02/11/eureka.png)
+![](images/eureka.png)
 接下来，对其中的名词进行解释：
 * Application Service 相当于服务提供者
 * Application Client 相当于服务消费者
