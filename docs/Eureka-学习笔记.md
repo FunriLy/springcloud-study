@@ -35,6 +35,7 @@ Eureka 只是找到有关客户端与之通信的服务器的信息，但不对�
 
 #### Eureka 架构
 ![](images/eureka.png)
+
 接下来，对其中的名词进行解释：
 * Application Service 相当于服务提供者
 * Application Client 相当于服务消费者
