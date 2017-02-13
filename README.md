@@ -1,6 +1,6 @@
 ## Spring Cloud Study
 
-**详情参考个人博客空间 https://zggdczfr.cn **
+** 详情参考个人博客空间 https://zggdczfr.cn **
 
 
 ### spring boot 版本依赖
