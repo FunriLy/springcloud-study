@@ -1,4 +1,4 @@
-## Spring Cloud Study
+﻿## Spring Cloud Study
 
 ** 详情参考个人博客空间 https://zggdczfr.cn **
 
@@ -35,3 +35,4 @@ Spring Boot 版本选定为 1.4.1.RELEASE，是为了更加方便与SpringBoot-S
 ##### 案例1 : 服务注册与发现
 ##### 案例2 : 服务消费(Ribbon实现客户端负载均衡)
 ##### 案例3 : 服务消费(Feign实现客户端负载均衡)
+##### 案例4 : 断路器 Hystrix
