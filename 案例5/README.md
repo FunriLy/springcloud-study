@@ -33,6 +33,23 @@ spring.cloud.config.label=master
 spring.cloud.config.uri=http://localhost:8761/
 ```
 
+### Config Client (续:实现配置文件刷新)
+* 引入依赖
+```xml
+		<!-- actuator 监控 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+```
+
+* 在 Controller层加入注解`@RefreshScope`
+
+* 通过POST请求发送到 http://localhost:1111/refresh 
+
+* 重新访问API接口 http://localhost:1111/config 来获取配置信息
+
+
 ### URL与配置文件的映射关系
 
 *   /{application}/{profile}[/{label}]
