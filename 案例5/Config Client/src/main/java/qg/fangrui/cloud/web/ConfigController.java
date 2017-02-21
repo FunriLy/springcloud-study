@@ -1,6 +1,7 @@
 package qg.fangrui.cloud.web;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 获取 Config
  * Created by zggdczfr on 2017/2/20.
  */
+@RefreshScope
 @RestController
 public class ConfigController {
 
